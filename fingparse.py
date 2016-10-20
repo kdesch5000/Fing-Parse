@@ -1,5 +1,8 @@
 #!/usr/bin/python
 #Simple Python script to parse values out of FING network scans into a pipe delimited txt file specified via command line aguments
+# 1st arg is input file name 2nd Arg is output file name
+# this script outputs | delimited data
+# This script assumes output from https://www.fing.io apple app
 
 import re, sys, os, datetime
 from datetime import datetime
